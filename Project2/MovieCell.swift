@@ -11,6 +11,13 @@ import Nuke
 
 class MovieCell: UITableViewCell {
 
+    @IBOutlet weak var movieImageView: UIImageView!
+    @IBOutlet weak var movieTitleLabel: UILabel!
+    @IBOutlet weak var movieOverviewLabel: UILabel!
+    
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -23,16 +30,10 @@ class MovieCell: UITableViewCell {
     }
     
     func configure(with movie: Movie){
-        movieTitleLabel.text = movie.movieTitle
-        movieOverviewLabel.text = movie.movieOverview
+        movieTitleLabel.text = movie.title
+        movieOverviewLabel.text = movie.overview
+        let imageURL = URL(string:"https://image.tmdb.org/t/p/w500\(movie.poster_path ?? "")")!
         
-        Nuke.loadImage(with: movie.backDropURL, into: movieImageView)
+        Nuke.loadImage(with: imageURL, into: movieImageView)
     }
-    
-    
-    
-    @IBOutlet weak var movieImageView: UIImageView!
-    @IBOutlet weak var movieTitleLabel: UILabel!
-    @IBOutlet weak var movieOverviewLabel: UILabel!
-    
 }

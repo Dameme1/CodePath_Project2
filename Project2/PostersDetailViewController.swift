@@ -8,7 +8,7 @@
 import UIKit
 import Nuke
 
-class DetailViewController: UIViewController {
+class PostersDetailViewController: UIViewController {
 
     @IBOutlet weak var overviewLabel: UILabel!
     @IBOutlet weak var popularityLabel: UILabel!
@@ -22,7 +22,7 @@ class DetailViewController: UIViewController {
 
         override func viewDidLoad() {
             super.viewDidLoad()
-            let imageURL = URL(string:"https://image.tmdb.org/t/p/w500\(movie.backdrop_path ?? "")")!
+            let imageURL = URL(string: "https://image.tmdb.org/t/p/w500\(movie.backdrop_path ?? "")")!
 
             // TODO: Pt 1 - Configure the UI elements with the passed in track
             Nuke.loadImage(with: imageURL, into: movieImage)

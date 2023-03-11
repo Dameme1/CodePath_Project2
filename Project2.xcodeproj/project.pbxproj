@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A07F73EF29B4D50100BBE4B0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F73EE29B4D50100BBE4B0 /* DetailViewController.swift */; };
+		A0D192B429BCD5D20099ED69 /* PostersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D192B329BCD5D20099ED69 /* PostersViewController.swift */; };
+		A0D192B829BCD88F0099ED69 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D192B729BCD88F0099ED69 /* PosterCell.swift */; };
+		A0D192BA29BCF08F0099ED69 /* PostersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D192B929BCF08F0099ED69 /* PostersDetailViewController.swift */; };
 		A0FFC04529B4B88300EA50B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FFC04429B4B88300EA50B3 /* AppDelegate.swift */; };
 		A0FFC04729B4B88300EA50B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FFC04629B4B88300EA50B3 /* SceneDelegate.swift */; };
 		A0FFC04929B4B88300EA50B3 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FFC04829B4B88300EA50B3 /* MoviesViewController.swift */; };
@@ -21,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		A07F73EE29B4D50100BBE4B0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A0D192B329BCD5D20099ED69 /* PostersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersViewController.swift; sourceTree = "<group>"; };
+		A0D192B729BCD88F0099ED69 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		A0D192B929BCF08F0099ED69 /* PostersDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersDetailViewController.swift; sourceTree = "<group>"; };
 		A0FFC04129B4B88300EA50B3 /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0FFC04429B4B88300EA50B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0FFC04629B4B88300EA50B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,13 +73,16 @@
 				A0FFC05B29B4BBC600EA50B3 /* Models */,
 				A0FFC04429B4B88300EA50B3 /* AppDelegate.swift */,
 				A0FFC04629B4B88300EA50B3 /* SceneDelegate.swift */,
-				A0FFC04829B4B88300EA50B3 /* MoviesViewController.swift */,
-				A0FFC05E29B4C39C00EA50B3 /* MovieCell.swift */,
 				A0FFC04A29B4B88300EA50B3 /* Main.storyboard */,
 				A0FFC04D29B4B88800EA50B3 /* Assets.xcassets */,
 				A0FFC04F29B4B88800EA50B3 /* LaunchScreen.storyboard */,
 				A0FFC05229B4B88800EA50B3 /* Info.plist */,
+				A0FFC05E29B4C39C00EA50B3 /* MovieCell.swift */,
 				A07F73EE29B4D50100BBE4B0 /* DetailViewController.swift */,
+				A0FFC04829B4B88300EA50B3 /* MoviesViewController.swift */,
+				A0D192B729BCD88F0099ED69 /* PosterCell.swift */,
+				A0D192B329BCD5D20099ED69 /* PostersViewController.swift */,
+				A0D192B929BCF08F0099ED69 /* PostersDetailViewController.swift */,
 			);
 			path = Project2;
 			sourceTree = "<group>";
@@ -165,9 +174,12 @@
 			files = (
 				A0FFC04929B4B88300EA50B3 /* MoviesViewController.swift in Sources */,
 				A0FFC04529B4B88300EA50B3 /* AppDelegate.swift in Sources */,
+				A0D192B829BCD88F0099ED69 /* PosterCell.swift in Sources */,
 				A0FFC05D29B4BCE400EA50B3 /* Movie.swift in Sources */,
 				A07F73EF29B4D50100BBE4B0 /* DetailViewController.swift in Sources */,
+				A0D192BA29BCF08F0099ED69 /* PostersDetailViewController.swift in Sources */,
 				A0FFC05F29B4C39C00EA50B3 /* MovieCell.swift in Sources */,
+				A0D192B429BCD5D20099ED69 /* PostersViewController.swift in Sources */,
 				A0FFC04729B4B88300EA50B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
